@@ -84,7 +84,8 @@ def compute_conditional_probability(hypotheses):
 
 def determine_hypotheses(working_memory, hypotheses):
     """
-    This function simply looks at working memory and determines what hypotheses are applicable given the observations (or rules hit)
+    This function simply looks at working memory and determines what hypotheses are applicable given the observations
+    (or rules hit). This is basically forward chaining
     :param working_memory: The observations
     :param hypotheses: the potential hypotheses
     :return: list a list containing the conflict set

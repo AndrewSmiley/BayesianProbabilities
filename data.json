@@ -15,8 +15,10 @@
     "Malfunction In Fuel Injection System (Carburetor)":{"evidence":[
         {"name":"Engine Doesn't Crank", "evidential_probability": 0.75},
         {"name":"Smell of Gasoline", "evidential_probability": 0.30},
+        {"name":"Engine Cranks But Doesn't Run", "evidential_probability": 0.23},
         {"name":"Lights Turn On", "evidential_probability": 0.99},
         {"name":"Visible Wear or Damage", "evidential_probability": 0.23},
+        {"name":"Very High Mileage", "evidential_probability": 0.58},
         {"name":"Leaking Gasoline", "evidential_probability": 0.41}], "prior_probability":0.10},
     "Engine Is Siezed":{"evidence":[
         {"name":"Engine Cranks But Doesn't Run", "evidential_probability": 0.99},
@@ -27,33 +29,41 @@
     "Air Filter Clogged":{"evidence":[
         {"name":"Engine Doesn't Crank", "evidential_probability": 0.75},
         {"name":"Lights Turn On", "evidential_probability": 0.99},
+        {"name":"Very High Mileage", "evidential_probability": 0.75},
         {"name":"Engine Cranks But Doesn't Run", "evidential_probability": 0.95}], "prior_probability":0.11},
     "Bad Starter":{"evidence":[
         {"name":"Engine Doesn't Crank", "evidential_probability": 0.91},
         {"name":"Lights Turn On", "evidential_probability": 0.95},
+        {"name":"Very High Mileage", "evidential_probability": 0.53},
         {"name":"Visible Wear or Damage", "evidential_probability": 0.23},
         {"name":"Engine Cranks But Doesn't Run", "evidential_probability": 0.95}], "prior_probability":0.21},
     "Bad Alternator":{"evidence":[
         {"name":"Engine Doesn't Crank", "evidential_probability": 0.91},
         {"name":"Lights Turn On", "evidential_probability": 0.39},
+        {"name":"Very High Mileage", "evidential_probability": 0.67},
         {"name":"Visible Wear or Damage", "evidential_probability": 0.19},
-        {"name":"Engine Cranks But Doesn't Run", "evidential_probability": 0.95}], "prior_probability":0.21},
+        {"name":"Engine Cranks But Doesn't Run", "evidential_probability": 0.95}], "prior_probability":0.02},
     "Security System Lockout":{"evidence":[
         {"name":"Engine Doesn't Crank", "evidential_probability": 0.91},
         {"name":"Lights Turn On", "evidential_probability": 0.39}], "prior_probability":0.41},
     "Bad Fuel Line":{"evidence":[
         {"name":"Engine Doesn't Crank", "evidential_probability": 0.75},
         {"name":"Smell of Gasoline", "evidential_probability": 0.20},
+        {"name":"Engine Cranks But Doesn't Run", "evidential_probability": 0.23},
         {"name":"Lights Turn On", "evidential_probability": 0.99},
+        {"name":"Very High Mileage", "evidential_probability": 0.32},
         {"name":"Visible Wear or Damage", "evidential_probability": 0.23},
         {"name":"Leaking Gasoline", "evidential_probability": 0.41}], "prior_probability":0.25},
     "Bad Ignition System":{"evidence":[
         {"name":"Engine Doesn't Crank", "evidential_probability": 0.90},
         {"name":"Lights Turn On", "evidential_probability": 0.99},
-        {"name":"Visible Wear or Damage", "evidential_probability": 0.01}], "prior_probability":0.34}
-
-
-
+        {"name":"Key Won't Turn", "evidential_probability": 0.32},
+        {"name":"Very High Mileage", "evidential_probability": 0.67},
+        {"name":"Visible Wear or Damage", "evidential_probability": 0.01}], "prior_probability":0.34},
+  "Wheel Lock":{"evidence":[
+        {"name":"Engine Doesn't Crank", "evidential_probability": 0.90},
+        {"name":"Lights Turn On", "evidential_probability": 0.99},
+        {"name":"Key Won't Turn", "evidential_probability": 0.12}], "prior_probability":0.34}
 
 
 }
