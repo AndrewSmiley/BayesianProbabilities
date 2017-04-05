@@ -1,0 +1,59 @@
+{
+    "Out of Gas":{"evidence":[
+        {"name":"Gauge is on E", "evidential_probability": 0.99},
+        {"name":"Lights Turn On", "evidential_probability": 0.95},
+        {"name":"Engine Cranks But Doesn't Run", "evidential_probability": 0.45}], "prior_probability":0.03},
+    "Dead Battery":{"evidence":[
+        {"name":"Lights Wont Turn On", "evidential_probability": 0.85},
+        {"name":"Engine Doesn't Crank", "evidential_probability": 0.91},
+        {"name":"Engine Cranks But Doesn't Run", "evidential_probability": 0.95}], "prior_probability":0.01},
+    "Bad Spark Plugs":{"evidence":[
+        {"name":"Engine Doesn't Crank", "evidential_probability": 0.64},
+        {"name":"Visible Wear or Damage", "evidential_probability": 0.81},
+        {"name":"Lights Turn On", "evidential_probability": 0.99},
+        {"name":"Engine Cranks But Doesn't Run", "evidential_probability": 0.74}], "prior_probability":0.02},
+    "Malfunction In Fuel Injection System (Carburetor)":{"evidence":[
+        {"name":"Engine Doesn't Crank", "evidential_probability": 0.75},
+        {"name":"Smell of Gasoline", "evidential_probability": 0.30},
+        {"name":"Lights Turn On", "evidential_probability": 0.99},
+        {"name":"Visible Wear or Damage", "evidential_probability": 0.23},
+        {"name":"Leaking Gasoline", "evidential_probability": 0.41}], "prior_probability":0.10},
+    "Engine Is Siezed":{"evidence":[
+        {"name":"Engine Cranks But Doesn't Run", "evidential_probability": 0.99},
+        {"name":"Very High Mileage", "evidential_probability": 0.23},
+        {"name":"Oil Change Out Of Date", "evidential_probability": 0.41}], "prior_probability":0.01},
+    "Clutch is not Depressed":{"evidence":[
+        {"name":"Foot is not pressing clutch down", "evidential_probability": 0.001}], "prior_probability":0.001},
+    "Air Filter Clogged":{"evidence":[
+        {"name":"Engine Doesn't Crank", "evidential_probability": 0.75},
+        {"name":"Lights Turn On", "evidential_probability": 0.99},
+        {"name":"Engine Cranks But Doesn't Run", "evidential_probability": 0.95}], "prior_probability":0.11},
+    "Bad Starter":{"evidence":[
+        {"name":"Engine Doesn't Crank", "evidential_probability": 0.91},
+        {"name":"Lights Turn On", "evidential_probability": 0.95},
+        {"name":"Visible Wear or Damage", "evidential_probability": 0.23},
+        {"name":"Engine Cranks But Doesn't Run", "evidential_probability": 0.95}], "prior_probability":0.21},
+    "Bad Alternator":{"evidence":[
+        {"name":"Engine Doesn't Crank", "evidential_probability": 0.91},
+        {"name":"Lights Turn On", "evidential_probability": 0.39},
+        {"name":"Visible Wear or Damage", "evidential_probability": 0.19},
+        {"name":"Engine Cranks But Doesn't Run", "evidential_probability": 0.95}], "prior_probability":0.21},
+    "Security System Lockout":{"evidence":[
+        {"name":"Engine Doesn't Crank", "evidential_probability": 0.91},
+        {"name":"Lights Turn On", "evidential_probability": 0.39}], "prior_probability":0.41},
+    "Bad Fuel Line":{"evidence":[
+        {"name":"Engine Doesn't Crank", "evidential_probability": 0.75},
+        {"name":"Smell of Gasoline", "evidential_probability": 0.20},
+        {"name":"Lights Turn On", "evidential_probability": 0.99},
+        {"name":"Visible Wear or Damage", "evidential_probability": 0.23},
+        {"name":"Leaking Gasoline", "evidential_probability": 0.41}], "prior_probability":0.25},
+    "Bad Ignition System":{"evidence":[
+        {"name":"Engine Doesn't Crank", "evidential_probability": 0.90},
+        {"name":"Lights Turn On", "evidential_probability": 0.99},
+        {"name":"Visible Wear or Damage", "evidential_probability": 0.01}], "prior_probability":0.34}
+
+
+
+
+
+}

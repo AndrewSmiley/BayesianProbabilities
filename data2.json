@@ -1,0 +1,7 @@
+{
+    "h0":{"evidence":[{"name":"E", "evidential_probability":0.94}], "prior_probability":0.03},
+    "h1":{"evidence":[{"name":"E", "evidential_probability":0.75}], "prior_probability":0.05},
+    "h2":{"evidence":[{"name":"E", "evidential_probability":0.98}], "prior_probability":0.01},
+    "h3":{"evidence":[{"name":"E", "evidential_probability":0.28}], "prior_probability":0.10}
+
+}
